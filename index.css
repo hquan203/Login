@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right,#5c4ba5 ,#6e349c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input::placeholder{
+    color: #b7b7b7;
+    font-size: 18px;
+}
+.container{
+    background-color: #3d1466;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container.hide{
+    display: none;
+}
+.box-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #a63e66;
+    padding: 2rem 20%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    justify-content: flex-start;
+}
+.box{
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+    width: 50%;
+}
+.wrap{
+    background: #3d1466;
+}
+h3{
+    color: #ccc;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+i{
+    font-size: 50px;
+    padding: 20px;
+    border: 1px solid #a63e66;
+    border-radius: 50%;
+}
+.facebook i{
+    padding: 20px 30px;
+    color: #4a6ea8;
+}
+.twitter i{
+    color: #65bbf2;
+    background-color: #3d1466;
+}
+.twitter{
+    position: absolute;
+    top: 0;
+    left: 47%;
+}
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+}
+input{
+    width: 100%;
+    background-color: transparent;
+    padding: 15px;
+    border: 1px solid #a63e66;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #fff;
+}
+p{
+    color: #a63e66;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.login{
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    background-color: #14b266;
+    padding: 15px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.register{
+    background-color: #fece00;
+    width: 100%;
+    font-size: 18px;
+    padding: 15px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 20%;
+    height: 100%;
+}
